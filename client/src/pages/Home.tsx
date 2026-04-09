@@ -78,10 +78,10 @@ export default function Home() {
           </div>
           
           <div className="hidden md:flex items-center gap-6">
-            <a href="#menu" className="text-sm hover:text-primary transition">Menu</a>
             <a href="#brigadeiros" className="text-sm hover:text-primary transition">Brigadeiros</a>
-            <a href="/catering" className="text-sm hover:text-primary transition">Catering</a>
+            <a href="#menu" className="text-sm hover:text-primary transition">Cakes</a>
             <a href="#contact" className="text-sm hover:text-primary transition">Contact</a>
+            <a href="/catering" className="text-sm hover:text-primary transition">Catering</a>
           </div>
 
           <Button className="bg-primary hover:bg-primary/90" asChild>

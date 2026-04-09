@@ -25,10 +25,10 @@ export default function Catering() {
           </div>
           
           <div className="hidden md:flex items-center gap-6">
-            <a href="/" className="text-sm hover:text-primary transition">Home</a>
-            <a href="/#brigadeiros" className="text-sm hover:text-primary transition">Menu</a>
+            <a href="/#brigadeiros" className="text-sm hover:text-primary transition">Brigadeiros</a>
+            <a href="/#menu" className="text-sm hover:text-primary transition">Cakes</a>
+            <a href="/#contact" className="text-sm hover:text-primary transition">Contact</a>
             <a href="/catering" className="text-sm hover:text-primary transition">Catering</a>
-            <a href="#inquiry" className="text-sm hover:text-primary transition">Inquiry</a>
           </div>
 
           <Button className="bg-primary hover:bg-primary/90" asChild>
@@ -69,8 +69,8 @@ export default function Catering() {
             {/* Small Package */}
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <CardTitle className="text-2xl text-primary">Small</CardTitle>
-                <CardDescription className="text-base">10-25 people</CardDescription>
+                <CardTitle className="text-2xl text-primary">Small Pack</CardTitle>
+                <CardDescription className="text-base">Up to 25 people</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-6">
@@ -79,19 +79,20 @@ export default function Catering() {
                 <div className="space-y-3 mb-8">
                   <div className="flex items-start">
                     <span className="text-primary mr-3">✓</span>
-                    <span className="text-sm text-muted-foreground">Assorted brigadeiros</span>
+                    <span className="text-sm text-muted-foreground">50 assorted brigadeiros, up to 3 flavors (GF)</span>
                   </div>
                   <div className="flex items-start">
                     <span className="text-primary mr-3">✓</span>
-                    <span className="text-sm text-muted-foreground">Cupcakes</span>
+                    <span className="text-sm text-muted-foreground">25 mini cupcakes, 1 flavor</span>
                   </div>
                   <div className="flex items-start">
                     <span className="text-primary mr-3">✓</span>
-                    <span className="text-sm text-muted-foreground">Small cake</span>
+                    <span className="text-sm text-muted-foreground">25 mini mousse, 1 flavor</span>
                   </div>
                 </div>
+                <p className="text-xs text-muted-foreground mb-2">100 items total</p>
                 <div className="text-3xl font-bold text-primary mb-6">
-                  $150-250
+                  R$300
                 </div>
                 <Button className="w-full bg-primary hover:bg-primary/90">
                   Inquire
@@ -102,8 +103,8 @@ export default function Catering() {
             {/* Medium Package */}
             <Card className="hover:shadow-lg transition-shadow border-primary/20 md:scale-105">
               <CardHeader>
-                <CardTitle className="text-2xl text-primary">Medium</CardTitle>
-                <CardDescription className="text-base">25-50 people</CardDescription>
+                <CardTitle className="text-2xl text-primary">Medium Pack</CardTitle>
+                <CardDescription className="text-base">Up to 50 people</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-6">
@@ -112,23 +113,24 @@ export default function Catering() {
                 <div className="space-y-3 mb-8">
                   <div className="flex items-start">
                     <span className="text-primary mr-3">✓</span>
-                    <span className="text-sm text-muted-foreground">Brigadeiro boxes</span>
+                    <span className="text-sm text-muted-foreground">100 assorted brigadeiros, up to 4 flavors (GF)</span>
                   </div>
                   <div className="flex items-start">
                     <span className="text-primary mr-3">✓</span>
-                    <span className="text-sm text-muted-foreground">Cupcake selection</span>
+                    <span className="text-sm text-muted-foreground">50 mini cupcakes, 2 flavors</span>
                   </div>
                   <div className="flex items-start">
                     <span className="text-primary mr-3">✓</span>
-                    <span className="text-sm text-muted-foreground">Decorated cake</span>
+                    <span className="text-sm text-muted-foreground">50 mini mousse, 1 flavor</span>
                   </div>
                   <div className="flex items-start">
                     <span className="text-primary mr-3">✓</span>
-                    <span className="text-sm text-muted-foreground">Pastries</span>
+                    <span className="text-sm text-muted-foreground">50 mini filled cookies (GF)</span>
                   </div>
                 </div>
+                <p className="text-xs text-muted-foreground mb-2">250 items total</p>
                 <div className="text-3xl font-bold text-primary mb-6">
-                  $300-500
+                  R$775
                 </div>
                 <Button className="w-full bg-primary hover:bg-primary/90">
                   Inquire
@@ -139,33 +141,38 @@ export default function Catering() {
             {/* Large Package */}
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <CardTitle className="text-2xl text-primary">Large</CardTitle>
-                <CardDescription className="text-base">50+ people</CardDescription>
+                <CardTitle className="text-2xl text-primary">Large Pack</CardTitle>
+                <CardDescription className="text-base">Up to 200 people</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-6">
-                  For big events
+                  For big events and large celebrations
                 </p>
                 <div className="space-y-3 mb-8">
                   <div className="flex items-start">
                     <span className="text-primary mr-3">✓</span>
-                    <span className="text-sm text-muted-foreground">Full brigadeiro selection</span>
+                    <span className="text-sm text-muted-foreground">400 assorted brigadeiros, up to 8 flavors (GF)</span>
                   </div>
                   <div className="flex items-start">
                     <span className="text-primary mr-3">✓</span>
-                    <span className="text-sm text-muted-foreground">Multiple cakes</span>
+                    <span className="text-sm text-muted-foreground">200 mini cake in a jar, 4 flavors</span>
                   </div>
                   <div className="flex items-start">
                     <span className="text-primary mr-3">✓</span>
-                    <span className="text-sm text-muted-foreground">Cupcake tower</span>
+                    <span className="text-sm text-muted-foreground">200 mini mousse, 2 flavors</span>
                   </div>
                   <div className="flex items-start">
                     <span className="text-primary mr-3">✓</span>
-                    <span className="text-sm text-muted-foreground">Custom decor</span>
+                    <span className="text-sm text-muted-foreground">200 mini filled cookies (GF)</span>
+                  </div>
+                  <div className="flex items-start">
+                    <span className="text-primary mr-3">✓</span>
+                    <span className="text-sm text-muted-foreground">200 mini quindim (GF)</span>
                   </div>
                 </div>
+                <p className="text-xs text-muted-foreground mb-2">1,200 items total</p>
                 <div className="text-3xl font-bold text-primary mb-6">
-                  $600+
+                  R$4,200
                 </div>
                 <Button className="w-full bg-primary hover:bg-primary/90">
                   Inquire
